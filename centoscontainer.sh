@@ -3,7 +3,7 @@ docker run -itd --name myserver1  docker.io/centos /bin/bash
 docker ps
 docker ps -a
 docker exec myserver1 yum update -y
-docker exec myserver1 cat /etc/os-release
+docker exe`c myserver1 cat /etc/os-release
 docker exec myserver1 yum install git -y
 docker exec myserver1 git clone https://github.com/DevopsGovardhan/saiproject.git
 docker exec myserver1 cd /saiproject && git config --global user.name "DevopsGovardhan"
