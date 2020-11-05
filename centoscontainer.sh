@@ -5,9 +5,9 @@ docker ps -a
 docker exec myserver1 yum update -y
 docker exec myserver1 cat /etc/os-release
 docker exec myserver1 yum install git -y
-docker exec myserver1 git clone https://github.com/DevopsGovardhan/saiproject.git
-docker exec myserver1 cd /saiproject && git config --global user.name "DevopsGovardhan"
-docker exec myserver1 cd /saiproject && git config --global user.email "m.govardhanreddy786@gmail.com"
+docker exec myserver1 git clone https://github.com/Upender213/mavenproject.git
+docker exec myserver1 cd /mavenproject && git config --global user.name "Upender213"
+docker exec myserver1 cd /mavenproject && git config --global user.email "upender.chh@gmail.com"
 docker attach myserver1
 touch qqq www eee rrr
 git status
